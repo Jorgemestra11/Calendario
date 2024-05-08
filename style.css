@@ -1,0 +1,41 @@
+form {
+    width: 500px; /* Ajustar ancho según tus preferencias */
+    margin: 20px auto; /* Centrar el formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilo para las etiquetas */
+  label {
+    display: block; /* Mostrar las etiquetas en la misma línea */
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Estilo para los campos de entrada */
+  input[type="time"],
+  input[type="date"],
+  input[type="week"],
+  input[type="month"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  /* Estilo para el botón de envío */
+  input[type="submit"] {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Estilo para el contenedor de campos */
+  .form-group {
+    margin-bottom: 15px;
+  }
